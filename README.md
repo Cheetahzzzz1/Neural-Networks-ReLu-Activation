@@ -2,20 +2,27 @@
 
 # Overview
 
-This assignment focuses on implementing and analyzing a 3
+This assignment focuses on implementing and analyzing a 3-layer neural network used for regression.
 
-# Problem Descriptions
+# Objectives
 
-**Problem 1: Verifying not(XOR) with a Neural Network**
+1. **Backpropagation code**
+ 
+   Implement backpropagation for a 3-layer neural network with the specified 
+   architecture.
 
-We will verify that a neural network with sigmoid activation functions approximates the not(XOR) function. This involves:-
+2. **Training the Network**
 
-1. Computing the outputs of the hidden nodes for the given inputs.
-2. Calculating the final outputs ℎ𝜃(𝑥) for each pair.
+   Use the single data sample x = [2,1]T, y = 3.
 
-The objective of this problem was to demonstrate that the neural network correctly approximates the not(XOR) function for all input combinations.
+   Initialize weights with i.i.d uniform random variables over the interval (0,1).
 
-**Problem 2: Convolutional and Max-pooling operations**
+   Train for 50 iterations using a learning rate 𝛾 = 0.05.
 
-We will perform computations involving a convolutional layer and a max-pooling layer. The kernel and input data are provided as follows:-
+   Plot the squared error loss as a function of iterations.
 
+# Requirements
+
+NumPy
+
+Matplotlib
